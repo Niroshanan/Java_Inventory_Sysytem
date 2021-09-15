@@ -18,6 +18,7 @@ import javax.swing.JOptionPane;
  *
  * @author Niros
  */
+ // this will load first
 public class Login extends javax.swing.JFrame {
     Connection conn = DBconnection.getDBconnection().getConnection();
     PreparedStatement pst;
